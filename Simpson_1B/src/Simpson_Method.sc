@@ -2,7 +2,7 @@
 fw(12)*/
 
 
-def Simpson_1T( f:Double=>Double, a:Double, b:Double):Double = {
+def Simpson_1T( f:Double => Double, a : Double, b : Double) : Double = {
   (b-a)*((f(a)+4*f((a+b)/2)+f(b))/6)
 }
 
